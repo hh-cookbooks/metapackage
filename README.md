@@ -3,6 +3,8 @@ Description
 
 Creates metapackages (empty .deb/.rpm etc)
 
+* https://help.ubuntu.com/community/MetaPackages#Creating_Metapackages
+
 Requirements
 ============
 
@@ -26,5 +28,7 @@ end
 ```
 
 It outputs a jeddy_*deb in /tmp that can be added to a personal repo.
+
+When this metapackage is removed, it will gracefully remove it's dependencies.
 
 
